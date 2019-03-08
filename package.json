@@ -10,7 +10,7 @@
   ],
   "homepage": "https://github.com/komlenic/bootgulp",
   "scripts": {
-    "install": "setup.sh"
+    "install": "chmod +x setup.sh && ./setup.sh"
   },
   "author": {
     "name": "Chris Komlenic",
