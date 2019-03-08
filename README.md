@@ -36,6 +36,10 @@ JavaScript. BootGulp also automates the following processing of code and files:
 
 ## Installation
 
+[Install npm](https://www.npmjs.com/get-npm) if it is not already installed.
+Check if npm is already installed (or verify that installation was successful)
+by executing `npm --version`.
+
 Clone this repository and execute `npm install`.
 
 ```bash
