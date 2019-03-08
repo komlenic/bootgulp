@@ -1,6 +1,6 @@
 {
   "name": "bootgulp",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "An easy-to-use Bootstrap and Gulp project starter kit.",
   "keywords": [
     "bootstrap",
