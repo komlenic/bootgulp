@@ -1,0 +1,14 @@
+dist/css/*
+dist/fonts/*
+dist/img/*
+dist/js/*
+node_modules
+node_modules/*
+src/fonts/*
+src/img/*
+!src/img/favicon.ico
+src/js/*
+src/scss/*
+!src/scss/style.scss
+!src/scss/_overrides-custom.scss
+package-lock.json

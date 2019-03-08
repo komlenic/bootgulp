@@ -1,0 +1,37 @@
+{
+  "name": "bootgulp",
+  "version": "0.8.0",
+  "description": "An easy-to-use Bootstrap and Gulp project starter kit.",
+  "keywords": [
+    "bootstrap",
+    "gulp",
+    "sass",
+    "scss"
+  ],
+  "homepage": "https://github.com/komlenic/bootgulp",
+  "scripts": {
+    "install": "setup.sh"
+  },
+  "author": {
+    "name": "Chris Komlenic",
+    "email": "komlenic@gmail.com"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komlenic/bootgulp.git"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}

@@ -1,0 +1,33 @@
+/**
+ * style.scss
+ *
+ * This is the main entry point for Sass and imports everything else that may
+ * be needed, in the correct order. Generally, this file should not be modified,
+ * and custom theming should be completed ONLY by modifying
+ * _variables-custom.scss and _overrides-custom.scss. See the notes below and
+ * this project's README for more information.
+ */
+
+/**
+ * Imports a copy of Bootstrap's _variables.scss file. This is the first place
+ * to begin customizing Bootstrap, by changing the values in this file.
+ */
+@import "variables-custom";
+
+/**
+ * Imports a copy of Bootstrap's _bootstrap.scss file. Commenting out features
+ * and components in this file will remove them from Bootstrap. Removing some
+ * particular components may cause dependency or other issues.
+ */
+@import "bootstrap-custom";
+
+/**
+ * Imports the Bootstrap theme.
+ */
+@import "bootstrap/theme";
+
+/**
+ * Imports the _overrides-custom.scss file. In this file is where custom SCSS
+ * that overrides or extends Boostrap should be placed.
+ */
+@import "overrides-custom";
