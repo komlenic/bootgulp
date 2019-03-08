@@ -2,6 +2,7 @@ dist/css/*
 dist/fonts/*
 dist/img/*
 dist/js/*
+dist/**/*.html
 node_modules
 node_modules/*
 src/fonts/*
