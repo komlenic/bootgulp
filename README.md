@@ -28,7 +28,7 @@ JavaScript. BootGulp also automates the following processing of code and files:
 
 ### Images
 
-* Compresses gif, jpeg, png, and svg files
+* Losslessly compresses gif, jpeg, png, and svg files
 
 ### HTML
 
