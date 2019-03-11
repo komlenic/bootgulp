@@ -36,17 +36,30 @@ JavaScript. BootGulp also automates the following processing of code and files:
 
 ## Installation
 
-[Install npm](https://www.npmjs.com/get-npm) if it is not already installed.
-Check if npm is already installed (or verify that installation was successful)
-by executing `npm --version`.
+1. [Install nodejs](https://nodejs.org/en/download/) if it is not already
+   installed. Check if `node` and `npm` are already installed (or verify that
+   installation was successful).
 
-Clone this repository and execute `npm install`.
+      ```bash
+      node --version
+      npm --version
+      ```
 
-```bash
-git clone https://github.com/komlenic/bootgulp.git myproject
-cd myproject
-npm install
-```
+2. Install the `gulp` command globally if it is not already installed, and
+   verify.
+
+      ```bash
+      npm install --global gulp-cli
+      gulp --version
+      ```
+
+3. Clone this repository and execute `npm install`.
+
+      ```bash
+      git clone https://github.com/komlenic/bootgulp.git myproject
+      cd myproject
+      npm install
+      ```
 
 ## Usage
 
