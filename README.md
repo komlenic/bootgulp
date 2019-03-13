@@ -53,12 +53,12 @@ JavaScript. BootGulp also automates the following processing of code and files:
       gulp --version
       ```
 
-3. Clone this repository and execute `npm install`.
+3. Start a new npm project and install BootGulp as a dependency.
 
       ```bash
-      git clone https://github.com/komlenic/bootgulp.git myproject
-      cd myproject
-      npm install
+      mkdir myproject
+      npm init
+      npm install bootgulp --save-dev
       ```
 
 ## Usage
