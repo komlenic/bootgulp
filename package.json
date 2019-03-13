@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/komlenic/bootgulp.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap-sass": "^3.4.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
