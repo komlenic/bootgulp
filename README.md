@@ -45,25 +45,70 @@ JavaScript. BootGulp also automates the following processing of code and files:
       npm --version
       ```
 
-2. Install the `gulp` command globally if it is not already installed, and
+2. Install the `gulp` CLI command globally if it is not already installed, and
    verify.
 
       ```bash
-      npm install --global gulp-cli
+      sudo npm install --global gulp-cli
       gulp --version
       ```
 
-3. Clone this repository and execute `npm install`.
+3. Start a new npm project and install BootGulp as a dependency.
 
       ```bash
-      git clone https://github.com/komlenic/bootgulp.git myproject
-      cd myproject
-      npm install
+      mkdir myproject
+      npm init
+      npm install bootgulp --save-dev
       ```
 
 ## Usage
 
-Coming soon.
+Once BootGulp has been installed as a dependency on a new npm project, the file
+structure will look similar to this.
+
+```bash
+├── dist/
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   ├── demo.html
+│   └── index.html
+├── node_modules/
+├── src/
+│   ├── fonts/
+│   ├── img/
+│   ├── js/
+│   ├── scss/
+│   ├── demo.html
+│   └── index.html
+├── gulpfile.js
+├── package.json
+└── package-lock.json
+```
+
+The important locations are noted below.
+
+### `src`
+
+This location is where modifications and additions should be made to content,
+Sass files, images, fonts, and any included JavaScript that your project
+requires.
+
+### `dist`
+
+This directory is where the final output of the project will be generated and
+can be packaged for distribution/publication.
+
+### Available gulp commands
+
+* `gulp` - processes all
+* `gulp watch` - processes all, then watches for changes and reprocesses
+* `gulp css` - only processes Sass/CSS
+* `gulp js` - only processes JavaScript
+* `gulp img` - only processes images
+* `gulp fonts` - only processes fonts
+* `gulp content` - only processes content (html files)
 
 ## License
 

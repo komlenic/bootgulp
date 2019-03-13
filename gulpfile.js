@@ -2,6 +2,9 @@
  * @file gulpfile.js
  *
  * A Gulp 4 gulpfile for bootgulp.
+ *
+ * @license MIT
+ * @copyright 2019 Chris Komlenic
  */
 'use strict';
 
